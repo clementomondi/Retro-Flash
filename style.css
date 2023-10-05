@@ -1,0 +1,218 @@
+/* Add CSS here */
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1580659916433-02374bdbaaaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUwfHxibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60');
+    object-fit: cover;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    min-width: 200px;
+    height: 170px;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+}
+
+.icon {
+    margin-left: -300px;
+    margin-top: 40px;
+}
+
+.closet {
+    width: 100%;
+    display: flex;
+    height: 75px;
+}
+
+.closets {
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.card-1 {
+    background-color: orangered;
+    width: 30%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-3 {
+    background-color:
+        #3e9200;
+    width: 30%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-con {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+.card-2 {
+    width: 100%;
+    height: 75px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.active.inbox {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.inbox {
+    min-width: 450px;
+    height: 300px;
+    opacity: 4;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    flex-direction: column;
+    z-index: 2;
+    left: 50%;
+    transition: opacity 0.7s;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://images.unsplash.com/photo-1580659916433-02374bdbaaaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUwfHxibHVycnklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60');
+        object-fit: cover;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+
+    .main-container {
+        min-width: 200px;
+        height: 170px;
+        cursor: pointer;
+        display: flex;
+        outline: none;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+    }
+
+    .closet-1 {
+        width: 90%;
+        display: flex;
+        height: 75px;
+    }
+
+    .closet-2 {
+        width: 90%;
+        height: 75px;
+        display: flex;
+    }
+
+    .card-1 {
+        background-color: orangered;
+        width: 30%;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-3 {
+        background-color:
+            #3e9200;
+        width: 30%;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .close-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .close-con {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .content h1 {
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .card-2 {
+        width: 100%;
+        height: 75px;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .active.inbox {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .inbox {
+        min-width: 450px;
+        height: 300px;
+        opacity: 4;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        flex-direction: column;
+        z-index: 2;
+        left: 50%;
+        transition: opacity 0.7s;
+    }
+}
